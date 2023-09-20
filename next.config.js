@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  basePath: '/github-pages',
   swcMinify: true,
   env: {
     MONGO_DB_URI:
